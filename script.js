@@ -30,6 +30,15 @@ addToLibrary("Think and Grow Rich", "Napoleon Hill", "1972", "NonFiction")
 
 console.log(libraryArray);
 
+//select the book-shelf class on the DOM
+const books = document.querySelector('.book-shelf');
+
+//creating divs for the books
+const bookDiv = document.createElement("div");
+
+//creating a class for the div
+bookDiv.classList.add('bookObject');
+
 
 
 

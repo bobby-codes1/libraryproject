@@ -21,4 +21,10 @@
     resize: both;
     overflow: auto;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+#number1{
+    background-color: blue;
+    color: rgb(2, 2, 23);
 }
